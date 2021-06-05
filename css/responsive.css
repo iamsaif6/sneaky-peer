@@ -1,0 +1,98 @@
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+      .data{
+            margin-bottom: 0rem;
+      }
+ }  
+
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+      .nav-tabs.d_inline li span{
+            display: none;
+      }
+
+      .tab_style8 .nav > li > a{
+            padding: 2rem 0;
+      }
+
+      .navbar__wrapper .nav-item{
+            margin-left: 0;
+            margin-bottom: 1rem;
+      }
+ }
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+
+      .sneakypeer{
+            background-image:url(../img/Subtract3.png) ;
+      }
+
+      .sneakypeer .row .col-md-4{
+            order: 1;
+            /* transform: translateY(-65%); */
+            margin-top: -6rem !important;
+           
+      }
+
+      .sneakypeer__text{
+            padding-bottom: 10rem !important;
+      }
+
+
+      .invest{
+            background-image: url(../img/Subtract4.png);
+      }
+
+      .invest__circle{
+            margin-right: auto;
+      }
+
+      .contact{
+            background-color: #F1F2F2;
+            box-shadow: none;
+      }
+
+      .cta{
+            padding-top: 0 !important;
+      }
+
+      .cta__imgbox{
+            margin-top: -6rem;
+      }
+
+      .data {
+            padding-bottom: 0 !important;
+      }
+
+      .btn{
+    
+            padding: 1rem 9rem;
+        }
+ }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+      
+.btn-md.dropdown-toggle{
+      padding: 0 !important;
+      font-size: 1rem;
+  }
+
+  .cta__img{
+        max-width: 10rem;
+  }
+
+  .cta h1{
+        font-size: 2.5rem;
+  }
+  
+ }
+
+
